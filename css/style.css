@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+:root {
+    --main-whiat: #fff;
+    --main-blue: #12a7fb;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.continer {
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.memoris {
+    display: flex;
+    background-image: url(../img/login-page.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    gap: 191px;
+}
+.memoris-box1 {
+    padding: 132px 0 217px;
+    text-align: center;
+}
+.memoris-box1 h1 {
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--main-whiat);
+}
+.memoris-box1 p {
+    color: var(--main-whiat);
+    font-weight: 453;
+    font-size: 20px;
+    line-height: 24px;
+    width: 427px;
+}
+.memoris-box2 {
+    padding: 44px 48px;
+    width: 40%;
+    background-color: rgba(48, 33, 33, 0.6);
+}
+.h2-m {
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--main-whiat);
+    margin-bottom: 119px;
+    display: flex;
+}
+.h2-m span {
+    color: var(--main-blue);
+}
+.memoris-ul {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.memoris-ul div {
+    height: 30px;
+    width: 1px;
+    background-color: #fff;
+}
+.li {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.blue {
+    color: var(--main-blue);
+}
+.white {
+    color: var(--main-whiat);
+}
+input {
+    background-color: #12a6fb00;
+    border: none;
+    width: 365px;
+    display: inline-block;
+}
+input::placeholder {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.from-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid var(--main-blue);
+    margin-bottom: 29px;
+}
+.mempris-btn {
+    background-color: #12a6fb00;
+    border: none;
+}
+.ul-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mempris-btn {
+    border: none;
+    background-color: #12a6fb00;
+}
+.mempris-btn a {
+    display: inline-block;
+    border: var(--main-blue) 3px solid;
+    color: var(--main-blue);
+    padding: 13px 42px;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.ul-li a {
+    color: var(--main-blue);
+    border-bottom: 3px solid var(--main-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
